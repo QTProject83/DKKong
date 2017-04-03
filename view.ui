@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>View</class>
+ <widget class="QMainWindow" name="View">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>View</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/backgroundMain/back_5.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="pushButtonPlay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>430</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic bold 12pt &quot;TeXGyreSchola&quot;;
+color: rgb(85, 82, 70);
+background-image: url(:/backgroundMain/back_6.jpg);</string>
+    </property>
+    <property name="text">
+     <string>Défi le monde ...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonQuit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>430</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic bold 12pt &quot;TeXGyreSchola&quot;;
+color: rgb(85, 82, 70);
+background-image: url(:/backgroundMain/back_6.jpg);</string>
+    </property>
+    <property name="text">
+     <string>ou abandonne</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

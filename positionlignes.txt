@@ -1,0 +1,74 @@
+ QGraphicsLineItem *line1 = new QGraphicsLineItem(56,685,780,657);
+    line1->setPen(lineStyle);
+    model->ListGameLine.append(line1);
+    this->addItem(line1);
+
+    QGraphicsLineItem *line2 = new QGraphicsLineItem(783,618,56,583);
+    line2->setPen(lineStyle);
+    model->ListGameLine.append(line2);
+    this->addItem(line2);
+
+    QGraphicsLineItem *line3 = new QGraphicsLineItem(112,524,838,492);
+    line3->setPen(lineStyle);
+    model->ListGameLine.append(line3);
+    this->addItem(line3);
+
+    QGraphicsLineItem *line4 = new QGraphicsLineItem(781,432,56,398);
+    line4->setPen(lineStyle);
+    model->ListGameLine.append(line4);
+    this->addItem(line4);
+
+    QGraphicsLineItem *line5 = new QGraphicsLineItem(112,339,840,304);
+    line5->setPen(lineStyle);
+    model->ListGameLine.append(line5);
+    this->addItem(line5);
+
+    QGraphicsLineItem *line6 = new QGraphicsLineItem(786,246,58,255);
+    line6->setPen(lineStyle);
+    model->ListGameLine.append(line6);
+    this->addItem(line6);
+
+    QGraphicsLineItem *line7 = new QGraphicsLineItem(366,157,531,156);
+    line7->setPen(lineStyle);
+    model->ListGameLine.append(line7);
+    this->addItem(line7);
+
+QGraphicsLineItem *line0 = new QGraphicsLineItem(0,height,width,height);
+    line0->setPen(lineStyle);
+    model->ListGameLine.append(line0);
+    this->addItem(line0);
+
+    QGraphicsLineItem *line1 = new QGraphicsLineItem(86,670,790,637);
+    line1->setPen(lineStyle);
+    model->ListGameLine.append(line1);
+    this->addItem(line1);
+
+    QGraphicsLineItem *line2 = new QGraphicsLineItem(793,578,56,543);
+    line2->setPen(lineStyle);
+    model->ListGameLine.append(line2);
+    this->addItem(line2);
+
+    QGraphicsLineItem *line3 = new QGraphicsLineItem(112,474,848,442);
+    line3->setPen(lineStyle);
+    model->ListGameLine.append(line3);
+    this->addItem(line3);
+
+    QGraphicsLineItem *line4 = new QGraphicsLineItem(791,372,66,338);
+    line4->setPen(lineStyle);
+    model->ListGameLine.append(line4);
+    this->addItem(line4);
+
+    QGraphicsLineItem *line5 = new QGraphicsLineItem(112,279,850,224);
+    line5->setPen(lineStyle);
+    model->ListGameLine.append(line5);
+    this->addItem(line5);
+
+    QGraphicsLineItem *line6 = new QGraphicsLineItem(786,146,58,155);
+    line6->setPen(lineStyle);
+    model->ListGameLine.append(line6);
+    this->addItem(line6);
+
+    QGraphicsLineItem *line7 = new QGraphicsLineItem(366,67,531,66);
+    line7->setPen(lineStyle);
+    model->ListGameLine.append(line7);
+    this->addItem(line7);

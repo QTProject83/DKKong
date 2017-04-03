@@ -1,0 +1,26 @@
+#include "model.h"
+
+Model::Model()
+{
+
+}
+
+void Model::setControl(Control *controle) {
+    this->control = controle;
+}
+
+QGraphicsView *Model::playNewGame(){
+   gameScene = new GameSceneMajor(this);
+   gameView = new QGraphicsView(gameScene);
+   return gameView;
+}
+
+void Model::addNewCoordonnees(int tab[4]){
+    
+    this->ListGameLine->append(tab);
+           
+}
+
+const Model::getElemList(int i){
+    return this->ListGameLine->takeAt(i);
+}
